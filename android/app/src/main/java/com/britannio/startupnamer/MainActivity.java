@@ -12,6 +12,5 @@ public class MainActivity extends FlutterActivity {
     super.onCreate(savedInstanceState);
     GeneratedPluginRegistrant.registerWith(this);
 
-    Toast.makeText(getApplicationContext(), "This is an Android Device", Toast.LENGTH_SHORT).show();
   }
 }
