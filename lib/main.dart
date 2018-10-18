@@ -65,7 +65,7 @@ class RandomWordsState extends State<RandomWords> {
           // minus the divider widgets.
           final index = i ~/ 2;
           // If you've reached the end of the available word pairings...
-          if (index >= _suggestions.length && _suggestions.length < 20) {
+          if (index >= _suggestions.length) {
             // ...then generate 10 more and add them to the suggestions list.
             _suggestions.addAll(generateWordPairs().take(10));
           }
